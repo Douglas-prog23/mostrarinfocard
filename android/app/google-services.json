@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "21020361326",
+    "project_id": "cards-79845",
+    "storage_bucket": "cards-79845.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21020361326:android:f1cd407356534a729b1c7f",
+        "android_client_info": {
+          "package_name": "com.trejop.mostrarinfocard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAOksGdPdDj36Bu5rqmRiLnqFi1-CCfqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
