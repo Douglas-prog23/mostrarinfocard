@@ -9,6 +9,7 @@ class PurchaseDialog {
 
     
   //Dialogo para realizar la compra de un producto
+  //aparee un dialogo para agregar un numero de compra
 
     showDialog(
       context: context,
