@@ -40,6 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text('MOSTRANDO INFORMACION EN UN CARD ( TARJETA )'),
       ),
+      //menu de navegacion para navegar entre las paginas 
       body: _pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
