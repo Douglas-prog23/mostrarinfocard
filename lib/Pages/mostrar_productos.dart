@@ -91,7 +91,7 @@ class ProductCard extends StatefulWidget {
 class _ProductCardState extends State<ProductCard> {
      var stars=null;
 
-   // Método para actualizar un producto
+   // Método para actualizar un productos
   Future<void> updateProduct(String productId, String newName, double newPrice, int newStock) async {
     try {
       await FirebaseFirestore.instance.collection('products').doc(productId).update({
