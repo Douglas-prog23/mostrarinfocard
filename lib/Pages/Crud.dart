@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 class PurchaseOperations {
   // Método para realizar la compra de un producto
+  // metodo compra producto
   Future<String> purchaseProduct(String productId, int quantity) async {
     try {
       final productRef = FirebaseFirestore.instance.collection('products').doc(productId);
