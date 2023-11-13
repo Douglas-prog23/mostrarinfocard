@@ -39,7 +39,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
       });
     }
   }
-
+//metodo para subir un producto
   Future<void> _uploadProduct() async {
     if (_productName.isEmpty || _productDescripcion.isEmpty || _productPrice <= 0 || _productStock < 0 || _selectedImage == null) {
       print('Por favor, completa todos los campos y selecciona una imagen.');
